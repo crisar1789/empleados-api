@@ -1,0 +1,14 @@
+server:
+  port : 9001
+  servlet:
+    context-path: /empleados
+   
+spring:
+  main:    allow-bean-definition-overriding: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/empleadosparameta?serverTimezone=UTC
+    username: parameta
+    password: parameta2021
